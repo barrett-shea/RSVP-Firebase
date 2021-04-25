@@ -133,7 +133,7 @@ rsvpNo.onclick = () => {
     .onSnapshot(snap => {
       const newAttendeeCount = snap.docs.length;
 
-      numberAttending.innerHTML = newAttendeeCount + " people going";
+      numberAttending.innerHTML = newAttendeeCount + ' people going';
     });
 }
 main();
